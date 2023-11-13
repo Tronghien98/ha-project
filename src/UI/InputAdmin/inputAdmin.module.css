@@ -1,0 +1,13 @@
+.label {
+  font-size: 14px;
+  color: #1872a6;
+  font-weight: 600;
+}
+.input,
+.input:focus {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 100%;
+  border-bottom: 1px solid #1872a6;
+}
