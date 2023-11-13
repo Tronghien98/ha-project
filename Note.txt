@@ -1,1 +1,12 @@
-dgfd
+
+get về
+git pull origin <ten nhanh>
+
+
+Lưu nội dung vào git
+git switch dev-quy  --> Chuyển sang nhánh dev quý
+git add .  --> Add tất cả file vào nhánh đang chọn
+git commit -m "noidung" --> Add 1 commit với description "noi dung"
+
+Đẩy lên
+git push origin dev-quy --> Đẩy source lên nhánh dev quý
