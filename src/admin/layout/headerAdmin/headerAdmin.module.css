@@ -2,6 +2,10 @@
   background-color: #1872a6;
   vertical-align: middle;
 }
+.logo {
+  padding: 8px 8px;
+  cursor: pointer;
+}
 .containerLogo {
   background-color: #fff;
 }
@@ -20,4 +24,5 @@
 .userAvatar {
   width: 30px;
   border-radius: 50%;
+  cursor: pointer;
 }

@@ -10,7 +10,7 @@ const HeaderAdmin = () => {
     <div className={`container-fluid ${styles.containerHeader}`}>
       <div className="row">
         <div className={`col-3 ${styles.containerLogo}`}>
-          <img src={logo} alt="logo" />
+          <img className={`${styles.logo}`} src={logo} alt="logo" />
         </div>
         <div className="col-7"></div>
         <div className={`col-2 ${styles.containerAvatar}`}>
