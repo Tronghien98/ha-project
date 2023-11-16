@@ -8,11 +8,13 @@ const Dashboard = () => {
   return (
     <div>
       <HeaderAdmin></HeaderAdmin>
-      <div className="row">
-        <div className="col-3">
-          <Leftbar></Leftbar>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-2 p-0">
+            <Leftbar></Leftbar>
+          </div>
+          <div className="col-9"></div>
         </div>
-        <div className="col-9"></div>
       </div>
     </div>
   );

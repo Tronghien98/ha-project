@@ -9,10 +9,10 @@ const HeaderAdmin = () => {
   return (
     <div className={`container-fluid ${styles.containerHeader}`}>
       <div className="row">
-        <div className={`col-3 p-0 ${styles.containerLogo}`}>
+        <div className={`col-2 p-0 ${styles.containerLogo}`}>
           <img className={`${styles.logo}`} src={logo} alt="logo" />
         </div>
-        <div className="col-7"></div>
+        <div className="col-8"></div>
         <div className={`col-2 ${styles.containerAvatar}`}>
           <div className={`p-0 align-item-center ${styles.containerUserName}`}>
             <p className={`text-end mb-0 h4 ${styles.textUserName}`}>Admin</p>
