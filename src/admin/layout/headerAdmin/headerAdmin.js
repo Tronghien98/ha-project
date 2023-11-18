@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 import styles from "./headerAdmin.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../img/logo.png";
+import logo from "../img/Logo + Hải âu + Slogan.png";
 import user from "../img/icon-user-default.png";
 
 const HeaderAdmin = () => {

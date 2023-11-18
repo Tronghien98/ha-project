@@ -20,7 +20,7 @@ const Leftbar = () => {
             className={`nav-item border-bottom border-white px-5 ${styles.menu}`}
           >
             <a className="nav-link text-white" href="#">
-              <i class="bi bi-file-earmark-person"></i>
+              <i className="bi bi-file-earmark-person"></i>
               Menu 2
             </a>
           </li>
@@ -28,7 +28,7 @@ const Leftbar = () => {
             className={`nav-item border-bottom border-white px-5 ${styles.menu}`}
           >
             <a className="nav-link text-white" href="#">
-              <i class="bi bi-file-earmark-person"></i>
+              <i className="bi bi-file-earmark-person"></i>
               Menu 3
             </a>
           </li>

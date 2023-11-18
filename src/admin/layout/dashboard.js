@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./dashboard.module.css";
 import HeaderAdmin from "./headerAdmin/headerAdmin";
 import Leftbar from "./leftbar/leftbar";
+import Category from "./category/category";
 
 const Dashboard = () => {
   return (
@@ -11,9 +12,9 @@ const Dashboard = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-2 p-0">
-            <Leftbar></Leftbar>
+            <Leftbar />
+            <div className={`col-10 ${styles.containerContent}`}></div>
           </div>
-          <div className="col-9"></div>
         </div>
       </div>
     </div>
