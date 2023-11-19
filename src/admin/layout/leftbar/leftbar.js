@@ -5,8 +5,8 @@ import styles from "./leftbarAdmin.module.css";
 const Leftbar = () => {
   return (
     <div className={`${styles.containerLeftbar}`}>
-      <nav class="navbar navbar-vertical">
-        <ul class="navbar-nav">
+      <nav className="navbar navbar-vertical">
+        <ul className="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="#">
               Menu 1
